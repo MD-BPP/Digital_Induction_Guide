@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BPP.com Styles</title>
+
+<link rel="stylesheet" type="text/css" href="build/css/style.min.css">
+</head>
+
+<body>
+<div class="wrap">
+    
+    <section class="sidebar col-sm-2">
+        
+        <header>
+            <h1>BPP.com Styles</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#web-systems">Web Systems</a></li>
+                <li><a href="#processes">Processes</a></li>
+                <li><a href="#browser-support">Browser Support</a></li>
+            </ul>
+            
+            <ul>
+                <li><a href="#pages">Pages</a></li>
+                <li><a href="#urls">URLs</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#structures">Structure</a></li>
+            </ul>
+            
+            <ul>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#banners">Banners</a></li>
+                <li><a href="#headings">Headings</a></li>
+                <li><a href="#intro-paragraphs">Intro paragraphs</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#tick-lists">Tick lists</a></li>
+                <li><a href="#accordions">Accordions</a></li>
+                <li><a href="#cta-area">Call to action area</a></li>
+            </ul>
+        </nav>
+
+    </section>
+    
+    
+    <section class="content-area col-sm-10">
+        <div class="row" id="introduction">
+            <div class="col-sm-8">
+                <h1>Introduction</h1>
+                <p>The following guides contain information about the processes, technologies, styles and limitations that the Digital team has when updating and creating content on BPP.com. The key aims we have for the site are to provide a consistent experience page to page whilst being able to provide clear brand identity to the different areas of BPP and BPP as a whole.</p>
+            </div>
+        </div><!-- row close -->
+        
+        
+        
+        
+        <div class="row" id="web-systems">
+            <div class="col-sm-12">
+                <h2>Web systems</h2>
+            </div>
+            
+            <div class="col-sm-3">
+            	<h3>Liferay</h3>
+                <p>The content management system (CMS) we use on BPP.com is called Liferay. It allows us to add pages, change the templates of those pages and add content to the pages through portlets. Our control over Liferay is limited as it is controlled by Apollo Global in the U.S.A. This means certain processes can take overnight due to the time zones.</p>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1">
+            	<h3>CAP</h3>
+                <p>When we first edit or create content we do so through CAP. CAP is a copy of BPP.com that we use as a testing and editing area. Only people on the BPP network can access it and it doesn't get indexed by Google. Once content is ready we 'approve' it and it is pushed live to BPP.com</p>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1">
+            	<h3>Eloqua</h3>
+                <p>Eloqua is a campaign management system. It hosts our e-mails, forms and some stand alone web pages. As we have greater control over Eloqua it allows us to provide extra functionality to pages when necessary. Eloqua forms can be placed into BPP.com to allow us to capture data.</p>
+            </div>
+            
+            <div class="col-sm-12 clearfix">&nbsp;</div>
+            
+            <div class="col-sm-3">
+            	<h3>Infinity</h3>
+                <p>When we put a phone number on the site we use a system called Infinity to track the number. Infinity are an external company that we pay for their services. Their product allows us to track the page that a specific phone call has come from. The number on the page is dynamically changed for each user. Because of this the layout is defined by the code which currently doesn't allow us to add brackets into the numbers.</p>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1">
+            	<h3>KonaKart</h3>
+                <p>Sadly though it shares 4 letters with Mario Kart it's nowhere near as fun. It's just shit. If we mention it, we've probably spent the last 30 minutes trying not to go on a murderous rampage. Kona Kart stores the content for our programme pages. It is on a 15 minute update cycle so content won't go live for up to 30 minutes but there is no testing area so the content will be available to the public within 30 minutes of it being changed.</p>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1">
+            	<h3>Amazon S3 server</h3>
+                <p>We have additional storage space available on an Amazon S3 server. We put images and PDF's etc on there. It allows us to put in one link to BPP.com and if the image or PDF changes then we can update it but the link stays the same. This is efficient if the PDF is linked to from multiple pages.</p>
+            </div>
+            
+            <div class="col-sm-12 clearfix">&nbsp;</div>
+            
+            <div class="col-sm-3">
+            	<h3>Wufoo</h3>
+                <p>If forms need special functions such as questions only being available if previous answers match certain criteria then we create the form in Wufoo. These forms don't go into Eloqua and therefore also don't go into Salesforce as leads. This has to be done manually afterwards.</p>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1">
+            	<h3>HTML/CSS</h3>
+                <p>These are the language that the digital monkeys speak in. HTML is a set of tags that are responsible for the structure of pages. You may recognise it from e-mail templates. CSS is responsible for the styling of the pages. HTML changes can be made through portlets but CSS changes are controlled by the global templates and so can take time to develop.</p>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1">
+            	<h3>Javascript/jQuery</h3>
+                <p>Another coding language, these two make interesting interactions happen on the page. Anything that is dynamic or animated is written in Javascript. jQuery is just a simpler shorthand version of Javascript that is quicker to write.</p>
+            </div>
+            
+            <div class="col-sm-12 clearfix">&nbsp;</div>
+            
+            <div class="col-sm-3">
+            	<h3>Salesforce</h3>
+                <p>The tool used to store the information about leads that are generated through various methods across BPP.</p>
+            </div>
+        </div><!-- web-systems CLOSE -->
+        
+        
+        
+        
+        
+        <div class="row" id="processes">
+            <div class="col-sm-8">
+                <h2>Processes</h2>
+                <p>Below is a brief explanation of the process we go through when creating a page. Hopefully it will give a rough timeline and insight into the different aspects that go into a page that might not be visible on the page.</p>
+                
+                <h3>1. Page creation</h3>
+                <p>The first step is to create the page within Liferay. Through this we choose the URL, template, layout and add the portlets to the page. At this point the page is only available to view in CAP. For it to be put live it must be deployed to the live servers. If any of the properties listed previously change then the page needs to be re-deployed.</p>
+                
+                <h3>2. Content</h3>
+                <p>At this point we add the content to the page and tag it up with HTML. All of the CSS is provided by the global stylesheets so the page comes together pretty quickly. We also need to tag any buttons with click tracking so that we can see users movements across the site and tag up phone numbers with Infinity tracking.</p>
+                
+                <h3>3. Eloqua integration</h3>
+                <p>If the page has a form then we need to actually make that form in Eloqua and make sure all of the form fields exist in both the code and the form. We also need to check that people can't enter the incorrect format or no information at all into the form. Finally we also need to make a confirmation page so that people who complete the form have somewhere to go.</p>
+                
+                <h3>4. Testing</h3>
+                <p>This is the phase that takes the longest. We need to check that everything displays correctly across multiple browsers and any Javascript interactions work as expected. Then we need to test that the form information goes into Eloqua and to Salesforce correctly and is being captured. Although the page may look correct at this point, there may be processing steps behind the scenes that don't work as expected.</p>
+                
+                <h3>5. Deployment</h3>
+                <p>Once we are happy that the page has been completed and works as expected we deploy the page to the live BPP.com server. There are two physical servers and so sometimes there are issues where one server is updated but the other isn't. These issues are resolved by the Apollo Global and therefore can take overnight to complete.</p>
+                
+            </div>
+        </div><!-- processes close -->
+        
+        
+        
+        
+        
+        <div class="row" id="browser-support">
+            <div class="col-sm-8">
+                <h2>Browser Support</h2>
+                <p>We currently support the following browsers:</p>
+                <ul>
+                	<li>Google Chrome</li>
+                	<li>Mozilla Firefox</li>
+                	<li>Microsoft Edge</li>
+                	<li>Microsoft Internet Explorer 9/10/11</li>
+                </ul>
+                
+                <p>We <strong>do not</strong> support Internet Explorer 8 as it is less than 1% of overall traffic to our site. If you find any bugs please check your browser version and raise a ticket on JIRA.</p>
+            </div>
+        </div><!-- browser-support close -->
+        
+        
+        
+        
+        
+        <div class="row" id="pages">
+            <div class="col-sm-8">
+                <h2>Pages</h2>
+                <p>In this section we will take an in-depth look at the parts that make up pages on BPP.com. When we make page decisions we do so with the goal of consistency in mind. We try to use the same structure for each page and the main styles are global so that users can navigate through the site efficiently and find their orientation no matter where they are in the site.</p>
+            </div>
+        </div><!-- pages close -->
+        
+        
+        
+        
+        
+        
+        <div class="row" id="urls">
+            <div class="col-sm-8">
+                <h2>URLs</h2>
+                <p>Each page is based on one of two starting points. Live URLs begin with http://www.bpp.com/ and CAP URLs start with http://bpp-cap.apolloglobal.int/. Each page has the same end section of URL on both CAP and Live however each page has a unique URL.</p>
+                
+                <p>There are 4 sections within the site: University, Professional Education, Apprenticeships and Learning Media. Pages under each section will start with either the BPP.com or CAP starting section followed by the sub section of BPP.com (examples below). From there other sub-sections are seperated in the URL using a "/".</p>
+                
+                <ul>
+                	<li>www.bpp.com/bpp-university</li>
+                	<li>www.bpp.com/professional-education</li>
+                	<li>www.bpp.com/apprenticeships</li>
+                	<li>www.bpp.com/learning-media</li>
+                </ul>
+                
+            </div>
+        </div><!-- urls close -->
+        
+        
+        
+        
+        
+        <div class="row" id="templates">
+            <div class="col-sm-8">
+                <h2>Templates</h2>
+                <p>The four sections of the site each have their own styles. The main difference in style is that the logos in the top left of the page. Another is the purple background on the banner text on Professional Education which doesn't appear on the University section of the site.</p>
+                
+                <p>The primary navigation on the page is controlled by the page template, providing the relevant links depending on which area of the site the page fits in to. We can choose a template for each individual page but if the template needs changing it requires the page to be re-deployed.</p>
+                
+                <img src="images/uni-header.jpg" />
+                <blockquote>University Header</blockquote>
+                
+                <img src="images/pq-header.jpg" />
+                <blockquote>Professional Education Header</blockquote>
+                
+                <img src="images/apps-header.jpg" />
+                <blockquote>Apprenticeships Header</blockquote>
+                
+                <img src="images/lm-header.jpg" />
+                <blockquote>Learning Media Header</blockquote>
+            </div>
+        </div><!-- pages close -->
+        
+        
+        
+        
+        
+        <div class="row" id="structures">
+            <div class="col-sm-8">
+                <h2>Structures</h2>
+                <p>Although LifeRay provides many different page layouts we only use 4 of these. Kona Kart pages will use either the University programme page template or the Professional Education programme page template. When we make any other page we will use a 'One-plus-two' layout with a thin collumn on either the left or right side depending on the location of the page within the site. Diagrams of the layouts are shown below.</p>
+            </div>
+        </div><!-- structures close -->
+        
+        
+        
+        
+        
+        <div class="row" id="components">
+            <div class="col-sm-8">
+                <h2>Components</h2>
+            </div>
+        </div><!-- Components close -->
+        
+        
+        
+        
+        
+        <div class="row" id="banners">
+            <div class="col-sm-8">
+                <h2>Banners</h2>
+                <p>Banners have been coded to allow for provider logos and other things such as caveats or names of the students who are on the banners as well as the key message the banner is trying to put across.</p>
+
+				<p>There are 4 quadrants on the banners. Top left/right and bottom left/right. Top left and bottom right are 75% width and Top right/bottom left are 25% width (see diagram).</p>
+                
+                <img src="images/banner.jpg" />
+                <blockquote>Example of PQ banner</blockquote>
+                
+                <p>The creation of the quadrants means that we can change each aspect individually without having to create a new image each time. Also the same image can be used on multiple banners across multiple courses without seperate images having to be uploaded.</p>
+                
+                <p>Currently banners <strong>do not</strong> appear on mobile devices.</p>
+
+            </div>
+        </div><!-- banners close -->
+        
+        
+        
+        
+        
+        <div class="row" id="headings">
+            <div class="col-sm-8">
+                <h2>Headings</h2>
+                <p>There are 4 main heading styles that are present on pages. h1 styles should only be used once on each page as they are used by Google to identify the content of the page. They are well padded from text above and so multiple headers together may seem to have too much blank space so content needs to be though out with this in mind.</p>
+                
+                <div class="code">
+                	<h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                </div>
+                <blockquote>Heading Styles</blockquote>
+                
+                <p>As you can see above the h2 and h1 styles have smaller padding to allow for them to be placed closer together however as the h3 style is woven between paragraphs it has a larger padding to allow more white space between blocks of text.</p>
+            </div>
+        </div><!-- Headings close -->
+        
+        
+        
+        
+        
+        <div class="row" id="intro-paragraphs">
+            <div class="col-sm-8">
+                <h2>Intro Paragraphs</h2>
+                <p>The idea of the intro paragraph is to provide a brief overview of the content of the following page so that users can quickly identify the content and purpose of the page so that they know if they need to read on. It is also highlighted with a purple border on the left side and a larger font size than other text.</p>
+                
+                <div class="code">
+                	<p class="lead-paragraph">This is an example of a paragraph that is an 'Intro Paragraph'. To be placed at the top of a document to give a brief overview of the page content. Notice the purple border on the left and the increased font size. Keep me short.</p>
+                </div>
+                
+                <h3>Inspiration</h3>
+                <p>Many news sites such as the BBC (shown below) pick out their opening paragraph with a highlight to give readers a short overview of the upcoming content. As Nielsen states that users <a href="http://www.nngroup.com/articles/how-little-do-users-read/">only read 28% of words</a> during an average page visit so it is key to get the message across in a concise a manner as possible.</p>
+                
+                <img src="images/bbc-sport.jpg" />
+                <blockquote>BBC Sport pick out the opening paragraph in bold text.</blockquote>
+            </div>
+        </div><!-- intro-paragraphs close -->
+        
+        
+        
+        
+        
+        <div class="row" id="buttons">
+            <div class="col-sm-8">
+                <h2>Buttons</h2>
+                <p>We have 3 styles of buttons on BPP.com. Primary call to actions (CTA's) are teal with a darker teal hover colour. Non-primary CTA's are light grey with the same teal colour as primary CTA's on hover. These two styles of buttons appear in the <a href="#cta-area">Call to action area</a> and have arrows on the right hand side of the button. </p>
+                
+                <p>Finally we have 'listings' buttons which are CTA's that appear within the normal document flow. They are the same colour as Primary CTA's however have a width limit whereas the other two CTA styles fill the width of the Call to action area. No arrow is present on the listing CTA although it has additional padding to protect it from surrounding paragraphs.</p>
+                
+                <div class="code">
+                	<a href="#" class="button primary">Primary CTA</a>
+                    <a href="#" class="button">Secondary CTA</a>
+                    <a href="#" class="button listing">Listing CTA</a>
+                </div>
+            </div>
+        </div><!-- buttons close -->
+        
+        
+        
+        
+        
+        <div class="row" id="tick-lists">
+            <div class="col-sm-8">
+                <h2>Tick lists</h2>
+                <p>To pick out key information within the page and to break up long block of text we have a tick list area. The bullets within this area have ticks instead of bullets. The list is contained within a light grey box which indents the content in the page. Tick list areas need to have a title that relates to the list.</p>
+                <p>These areas are <strong>not</strong> intended to hold paragraphs of text or multiple titles.</p>
+                
+                <div class="code">
+                	<div class="tick-list-container">
+                    	<h3>Title for the tick list</h3>
+                    	<ul>
+                        	<li>List items in here have ticks</li>
+                            <li>This area is meant for short bullets only</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- tick-lists close -->
+        
+        
+        
+        
+        
+        <div class="row" id="accordions">
+            <div class="col-sm-8">
+                <h2>Accordions</h2>
+                
+                <div class="code">
+                	<div id="code-accordion"> 
+                    	<h5>Top section</h5> 
+                        <div class="answer"> 
+                        	<p>Content of the accordion</p> 
+                        </div>
+                        
+                    	<h5>Secondary title</h5> 
+                        <div class="answer"> 
+                        	<p>More content</p>
+                      		<p>Can be multiple paragraphs</p> 
+                        </div>
+                         
+                	</div>
+                </div><!-- code close -->
+            </div>
+        </div><!-- Accordions close -->
+        
+        
+        
+        
+        
+        <div class="row" id="cta-area">
+            <div class="col-sm-8">
+                <h2>Call to action area</h2>
+                <p>Most pages on BPP.com will have a call to action area. They are to be located on the right hand side of the page and can contain a title, phone number and list of call to actions. If any provider logos, pass rates or special offer stickers are to be put on the page they should go in this area underneath the call to actions.</p>
+                
+                <div class="code">
+                	<nav class="ctaul-container">
+                    	<h2>Call to action</h2>
+                        <div class="telephone"> 
+                        	<p>0333 130 5165</p> 
+                        </div>
+                        <ul class="ctaul">
+                        	<li><a href="#" class="button primary">Primary CTA</a></li>
+                        	<li><a href="#" class="button">Secondary CTA</a></li>
+                           	<li><a href="#" class="button">Tertiary CTA</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div><!-- cta-area close -->
+        
+        
+        
+        
+    </section>
+    
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
+    <!-- End Fonts -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/script.min.js"></script>
+    <script>
+    	// JavaScript Document
+		
+		$(document).ready(function(){
+			$('.answer').hide();
+			$('#code-accordion h5').click(function(){
+				if( $(this).hasClass('close_accordion') ) {
+					$(this).next('.answer').fadeOut('fast');
+					$(this).removeClass('close_accordion');
+				}
+				
+				else {
+					$(this).next('.answer').fadeIn('slow');
+					$(this).addClass('close_accordion');
+				}
+			});
+		});
+    </script>
+    <script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			  }
+			}
+		  });
+		});
+    </script>
+    <!-- End of SCRIPTS -->
+</div><!-- Wrap Close -->
+</body>
+</html>

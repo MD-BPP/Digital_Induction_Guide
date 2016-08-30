@@ -1,0 +1,123 @@
+$para-grey: #666;
+$intro-para: #000;
+$para-links: #339999;
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+body {
+    @extend html;
+    font-family: 'Open Sans', tahoma, arial, helvetica, sans-serif;
+}
+
+.wrap {
+	min-height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+ 
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: $para-grey;
+}
+
+::selection {
+    color: #fff;
+    background: $para-grey;
+}
+
+.row {
+	margin-top:60px;
+}
+
+
+
+
+
+// #Font Styles
+
+h1 {
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 761px) {
+    h1 {
+        line-height: 50px;
+    }
+}
+
+
+h2 {
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+
+@media (min-width: 761px) {
+    h2 {
+        line-height: 50px;
+    }
+}
+
+h3 {
+	padding-top:25px;
+}
+
+
+.intro-paragraph {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 761px) {
+    .intro-paragraph {
+        line-height: 50px;
+    }
+}
+
+
+p {
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: $para-grey;
+}
+
+@media (min-width: 761px) {
+    p {
+        line-height: 1.5;
+    }
+}
+
+
+blockquote {
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: -1px;
+	margin: 0 0 15px 0;
+  	font-size: 14px;
+}
+
+.code {
+	border-left: 40px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 40px 20px 0;
+	padding: 30px;
+	display: block;
+}

@@ -1,0 +1,203 @@
+.code h1, .code h2, .code h3, .code h4, .code h5 ,.code h6 {
+	font-family: 'Open Sans', arial, helvetica, sans-serif!important;
+	color: #772583;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.code h1 {font-size:32px; font-weight:lighter}
+
+.code h2 {font-size:26px;}
+
+.code h3 {font-size:22px;}
+
+.code h4 {font-size:15px; margin-bottom: 10px;}
+
+.code p.lead-paragraph {
+	margin: 20px 0 20px;
+	font-size: 16px;
+	padding-left: 10px;
+	border-left: 1px solid #772583;
+}
+
+
+
+.code .button {
+	background:#f1f1f1;
+	color:#772583;
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	padding: 12px 25px 12px 12px;
+	font-size:12px;
+}
+
+.code .button {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-teal.png) no-repeat right 10px center #f1f1f1;
+}
+
+.code .primary {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-white.png) no-repeat right 10px center #3ab4b4; 
+	color:#fff;
+}
+
+.code .listing {
+	background:#3ab4b4; 
+	color:#fff;
+	width:150px; 
+	margin-top:20px; 
+	text-align:center;
+}
+
+
+.code .button:hover, .code a.button:link:hover {
+	text-decoration:none;
+}
+
+.code .button:hover {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-white.png) no-repeat right 10px center #008d8d; 
+	color:#fff;
+}
+
+.code .primary:hover {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-white.png) no-repeat right 10px center #008d8d;
+	color:#fff;
+}
+
+.code .listing:hover, .code a.listing:link:hover {
+	background:#008d8d;
+	color:#fff;
+}
+
+.code .button, .code .primary, .code .listing, .code .button:hover, .code .primary:hover, .code .listing:hover, .code a.listing:link:hover, {
+    -webkit-transition: background ease-out 0.5s, color ease-out 0.5s, border ease-out 0.5s;
+    -moz-transition: background ease-out 0.5s, color ease-out 0.5s, border ease-out 0.5s;
+    -o-transition: background ease-out 0.5s, color ease-out 0.5s, border ease-out 0.5s;
+    transition: background ease-out 0.5s, color ease-out 0.5s, border ease-out 0.5s;
+}
+
+.code .tick-list-container h3 {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.code .tick-list-container {background:#f3f3f4; padding:15px 25px;}
+
+.code .tick-list-container li {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/Teal_Tick.png) no-repeat left center;
+	border-bottom:0;
+	padding-left:30px;
+	margin:10px 0;
+	list-style: none;
+}
+
+.code .ctaul-container {
+background: #f9f9f9;
+border: 1px solid #e8e8e8;
+padding: 15px;
+padding-top:15px;
+}
+
+.code .ctaul-container h2 {
+font-family: 'Open Sans'!important;
+font-weight: normal;
+font-size: 20px;
+padding-bottom:10px;
+color:#772583;
+margin-bottom: 0px;
+}
+
+.code .ctaul {margin-right:0; margin-bottom:0px; font-family: 'Open Sans', arial, helvetica, sans-serif;}
+
+.code .ctaul li {
+	background:none;
+	padding-left:0px;
+	font-size:13px;
+	list-style:none;
+	padding: 1px;
+	margin-left:0;
+}
+
+.code .ctaul .button {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-teal.png) no-repeat right 10px center #f1f1f1;
+	background-color:#f1f1f1;
+	color:#3ab4b4;
+	text-decoration:none;
+	border:1px solid #ccc;
+	padding: 13px 23px 13px 13px;
+}
+
+.code .ctaul .button:hover {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-white.png) no-repeat right 10px center #008d8d;
+	background-color:#008d8d;
+	color:#fff;
+	text-decoration:none;
+}
+
+.code .ctaul .primary {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-white.png) no-repeat right 10px center #3ab4b4;
+	background-color:#3ab4b4;
+	display:block;
+	color:#fff;
+}
+
+.code .ctaul .primary:hover {
+	background:url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/CTA-ARROW-white.png) no-repeat right 10px center #008d8d;
+	background-color:#008d8d;
+	color:#fff;
+}
+
+.code .telephone p{
+                color:#772583;
+                font-size:28px;
+                margin:0;
+				font-family:'Open Sans',arial,helvetica,sans-serif;
+}
+
+.code .telephone {
+	margin-bottom: 20px;
+}
+
+.code #code-accordion {margin-bottom:30px;}
+
+.code #code-accordion h5.close_accordion {
+	background-image	:url(http://www.bpp.com/delegate/r/images/faq_whendown-grey.jpg);
+	background-repeat	:no-repeat;
+	background-position	:right;
+	cursor				:pointer;
+}
+
+.code #code-accordion h5{
+	background-color	:#949599;
+	background-image	:url(http://www.bpp.com/delegate/r/images/faq_whenup-grey.jpg);
+	background-repeat	:no-repeat;
+	background-position	:right;
+	color				:#FFFFFF!important;
+	cursor				:pointer;
+	font-weight			:normal;
+	width				:100%;
+	height				:auto;
+	line-height    		:1;
+	margin-bottom		:10px;
+	padding-left		:20px;
+	padding-right		:60px;
+	padding-top			:17px;
+    padding-bottom      :17px;
+    box-sizing          :border-box;
+}
+
+.code .answer {
+	padding: 0;
+	height: auto;
+	width: auto;
+	margin-bottom: 10px;
+	background: #f3f3f3;
+	padding: 14px;
+	width: 100%;
+	margin-top: -5px;
+    box-sizing: border-box;
+}
+
+.code #code-accordion h5 {color:#fff; margin-bottom:5px!important;}
+
+.code #code-accordion .tick-list-container {margin:0; padding:0 25px;}
